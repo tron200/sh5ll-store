@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="/css/auth.css">
 </head>
 <body>
+    
 <form method="post" action="javascript: void(0);" id="register-form" class="register-form" autocomplete="off" role="main">
     <h1 class="a11y-hidden">Register Form</h1>
     <div>
@@ -29,6 +30,11 @@
         </label>
     </div>
     <input type="submit" value="Log In" />
+
+    <div class="email">
+        <br>
+        <a href="#">Already have an account? Sign in here</a>
+    </div>
     <figure aria-hidden="true">
         <div class="person-body"></div>
         <div class="neck skin"></div>

@@ -14,14 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('home');
+})->name('home');
 
 Route::get('/auth/{auth}', function ($auth) {
-    if($auth == "login"){
+    if($auth == 'login'){
         return view('login');
     }elseif ($auth == "register"){
         return view('register');
     }
 
-});
+})->name('auth');
